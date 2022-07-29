@@ -119,7 +119,7 @@ def main():
             print('\tVersao: {}, Tamanho: {}, Tempo de Vida: {}'.format(versao, tamanho_cabecalho, tempo_vida))
             print('\tProtocolo: {}, IP de Origem e Destino: {} : {}'.format(proto, ip_fonte, ip_destino))
 
-            #Identificando do tipo de protocolo de transporte: TCP == 6 ou UDP == 8
+            #Identificando do tipo de protocolo de transporte: TCP == 6 ou UDP == 17
             if proto == 6:
                 porta_fonte, porta_dest, sequencia, reconhecimento, dados = cabecalho_TPC(dados)
 

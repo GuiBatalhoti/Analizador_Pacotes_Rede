@@ -1,3 +1,5 @@
+Projeto desenvolvido como atividade solicitada na disciplina de Redes de Computadores 1.
+
 O projeto foi desenvolvido em sistema operacional LINUX, distro POP!_OS 22.04 LTS.
 Feito por Guilherme Eduardo Silva Batalhoti.
 
